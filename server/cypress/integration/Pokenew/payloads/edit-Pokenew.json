@@ -1,0 +1,16 @@
+{
+  "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c6a38d45-727b-41c1-a8c3-82ee4fc38bce/dac63kj-dc8a9e5e-9f3f-4ab8-991e-b9f50bf2a71c.png/v1/fill/w_1280,h_1138,strp/mega_rampardos__fake__by_neocyania_dac63kj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEzOCIsInBhdGgiOiJcL2ZcL2M2YTM4ZDQ1LTcyN2ItNDFjMS1hOGMzLTgyZWU0ZmMzOGJjZVwvZGFjNjNrai1kYzhhOWU1ZS05ZjNmLTRhYjgtOTkxZS1iOWY1MGJmMmE3MWMucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.YnCQu-J2QYsAAcSgJweM9IAHBPjKpA65rzvDuFaQB5A",
+  "name": "Mega Rampardos Modify",
+  "type1": "rock",
+  "type2": "dark",
+  "hp": 70,
+  "attack": 85,
+  "defense": 70,
+  "specAtc": 90,
+  "specDef": 75,
+  "speed": 80,
+  "title1": "Blaze",
+  "description1": "Blaze aumenta o poder dos movimentos do tipo Fire em 50% (1,5×) quando o HP do portador da habilidade cai abaixo de um terço de seu máximo (conhecido no jogo como em uma pitada ).",
+  "title2": "Dark Aura",
+  "description2": "Dark Aura aumenta o poder dos movimentos do tipo Dark em 33% para todos os Pokémon no campo (não apenas o portador da habilidade)."
+}

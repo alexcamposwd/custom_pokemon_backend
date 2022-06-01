@@ -1,0 +1,97 @@
+{
+  "name": "pokedex",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Alex Campos",
+  "keywords": [
+    "react",
+    "react-hook-form",
+    "react-icons",
+    "react-scroll-to-top",
+    "react-toastify",
+    "styled-components",
+    "yup",
+    "axios"
+  ],
+  "dependencies": {
+    "@hookform/resolvers": "^2.8.8",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.31.1",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-scroll-to-top": "^1.0.8",
+    "react-toastify": "^9.0.1",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "test-cy": "npx cypress run --reporter mochawesome",
+    "test-merge": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
+    "test-html": "marge cypress/report/output.json --reportDir ./ --inline",
+    "delete_reports": "node deleteReports.js",
+    "tests": "npm run delete_reports && npm run test-cy && npm run test-merge && npm run test-html"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier",
+      "prettier/react"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "cypress": "^9.7.0",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "prettier": "^2.6.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write"
+    ]
+  }
+}

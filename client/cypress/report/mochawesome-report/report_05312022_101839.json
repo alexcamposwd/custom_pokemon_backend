@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-31T13:18:35.108Z",
+    "end": "2022-05-31T13:18:39.317Z",
+    "duration": 4209,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c126d3c7-6f66-476a-8402-40eba1af8563",
+      "title": "",
+      "fullFile": "cypress/integration/Pokemon/ui_new.spec.js",
+      "file": "cypress/integration/Pokemon/ui_new.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "83a71130-c2b4-4b64-b996-8e7b29309464",
+          "title": "Usabilidade da tela Create",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verificar elementos da tela New",
+              "fullTitle": "Usabilidade da tela Create Verificar elementos da tela New",
+              "timedOut": null,
+              "duration": 1129,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-cy=\"wapper-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"title-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-name-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-name-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-url-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-url-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-type1-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-type1-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-type2-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-type2-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-hp-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-hp-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-attack-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-attack-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-defense-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-defense-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-specAtc-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-specAtc-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-specDef-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-specDef-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-speed-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-speed-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-title1-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-title1-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-descr1-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-descr1-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-title2-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-title2-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-descr2-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"inp-descr2-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"btn-save-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"btn-back-pokenew\"]').should('be.visible');",
+              "err": {},
+              "uuid": "50cd11db-dc22-446e-8928-22e8635a27f9",
+              "parentUUID": "83a71130-c2b4-4b64-b996-8e7b29309464",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verificar mensagens de erros",
+              "fullTitle": "Usabilidade da tela Create Verificar mensagens de erros",
+              "timedOut": null,
+              "duration": 1200,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-cy=\"btn-save-pokenew\"]').click();\ncy.get('[data-cy=\"error-name-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"error-url-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"error-type-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"error-stats-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"error-title-pokenew\"]').should('be.visible');\ncy.get('[data-cy=\"error-description-pokenew\"]').should('be.visible');",
+              "err": {},
+              "uuid": "2bf0f051-b379-4c72-8dec-70f2801d45f5",
+              "parentUUID": "83a71130-c2b4-4b64-b996-8e7b29309464",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "50cd11db-dc22-446e-8928-22e8635a27f9",
+            "2bf0f051-b379-4c72-8dec-70f2801d45f5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2329,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "reportFilename": "report",
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

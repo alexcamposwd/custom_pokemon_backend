@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  api_mongo_db:
+    container_name: api_mongo_db
+    image: mongo:5.0.4
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: server
+    container_name: server
+    ports:
+      - "5000:5000"
+    depends_on:
+      - api_mongo_db
+    networks:
+      - app-network
+  
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: client
+    container_name: client
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+    app-network:
+        driver: bridge
