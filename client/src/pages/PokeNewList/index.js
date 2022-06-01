@@ -1,3 +1,3 @@
-import PokeNewList from "./PokeNewList";
+import PokeNewList from './PokeNewList'
 
 export default PokeNewList

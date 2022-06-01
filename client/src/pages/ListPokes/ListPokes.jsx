@@ -94,18 +94,19 @@ function ListPokes() {
           ))}
         {loading && <Loading />}
         {!loading && pokes.length === 0 && (
-          <S.WarnMsg data-cy='warnMsg-listpokes'>There are no pokemons to show.</S.WarnMsg>
+          <S.WarnMsg data-cy='warnMsg-listpokes'>
+            There are no pokemons to show.
+          </S.WarnMsg>
         )}
       </S.ListCards>
 
-      <Pagination 
+      <Pagination
         pages={pages}
         setCurrentPage={setCurrentPage}
         itemsPerPage={itemsPerPage}
         setItemsPerPage={setItemsPerPage}
       />
     </S.ContainerList>
-
   )
 }
 

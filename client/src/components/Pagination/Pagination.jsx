@@ -17,7 +17,6 @@ function Pagination({ pages, setCurrentPage }) {
           </button>
         ))}
       </S.SectionBtn>
-     
     </S.ContainerPagination>
   )
 }

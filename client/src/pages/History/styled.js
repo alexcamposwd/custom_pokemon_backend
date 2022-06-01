@@ -21,7 +21,15 @@ export const SectionProject = styled.section`
 export const HistoryImg = styled.img`
   width: 78%;
   height: auto;
-  clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  clip-path: polygon(
+    5% 5%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
   box-shadow: 8px 8px 15px ${(props) => props.theme.colors.blackopacity};
   transition: all 0.3s ease-in-out;
 
@@ -47,7 +55,7 @@ export const ProjectTitle = styled.h1`
     font-size: 26px;
   }
   @media (max-width: 550px) {
-   font-size: 24px;
+    font-size: 24px;
   }
 `
 

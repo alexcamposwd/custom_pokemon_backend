@@ -60,7 +60,9 @@ function Info() {
           <S.InfoTypes>
             {pokeTypes.length > 0 &&
               pokeTypes.map((types) => (
-                <S.ItemTypes data-cy='types-info' key={types.slot}>{types.type.name}</S.ItemTypes>
+                <S.ItemTypes data-cy='types-info' key={types.slot}>
+                  {types.type.name}
+                </S.ItemTypes>
               ))}
           </S.InfoTypes>
         </S.FieldData>
@@ -68,29 +70,45 @@ function Info() {
           {pokeStats.length > 0 &&
             pokeStats.map((stats) => (
               <S.GroupStats key={stats.id}>
-                <S.StatsName data-cy='stats-name-info'>{stats.stat.name}</S.StatsName>
+                <S.StatsName data-cy='stats-name-info'>
+                  {stats.stat.name}
+                </S.StatsName>
                 <S.Bars data-cy='stats-progress-info'>
                   <ProgressBar percent={stats.base_stat} />
                 </S.Bars>
-                <S.StatsNum data-cy='stats-num-info'>{stats.base_stat}</S.StatsNum>
+                <S.StatsNum data-cy='stats-num-info'>
+                  {stats.base_stat}
+                </S.StatsNum>
               </S.GroupStats>
             ))}
         </S.InfoStats>
       </S.SectionData>
       <S.Underline />
       <S.InfoAbilities>
-        <S.AbilitiesTitle data-cy='abilities-title-info'>Abilities</S.AbilitiesTitle>
+        <S.AbilitiesTitle data-cy='abilities-title-info'>
+          Abilities
+        </S.AbilitiesTitle>
         <S.GroupAbilities>
-          <S.AbilityTitle data-cy='abilities-name-info'>{nameAbil1}</S.AbilityTitle>
-          <S.AbilityText data-cy='abilities-text-info'>{Ability1}</S.AbilityText>
+          <S.AbilityTitle data-cy='abilities-name-info'>
+            {nameAbil1}
+          </S.AbilityTitle>
+          <S.AbilityText data-cy='abilities-text-info'>
+            {Ability1}
+          </S.AbilityText>
         </S.GroupAbilities>
         <S.GroupAbilities>
-          <S.AbilityTitle data-cy='abilities-name-info'>{nameAbil2}</S.AbilityTitle>
-          <S.AbilityText data-cy='abilities-text-info'>{Ability2}</S.AbilityText>
+          <S.AbilityTitle data-cy='abilities-name-info'>
+            {nameAbil2}
+          </S.AbilityTitle>
+          <S.AbilityText data-cy='abilities-text-info'>
+            {Ability2}
+          </S.AbilityText>
         </S.GroupAbilities>
       </S.InfoAbilities>
       <S.Back>
-        <S.BtnBack data-cy='btn-back-info' onClick={() => navigate(-1)}>back</S.BtnBack>
+        <S.BtnBack data-cy='btn-back-info' onClick={() => navigate(-1)}>
+          back
+        </S.BtnBack>
       </S.Back>
     </S.ContainerInfo>
   )

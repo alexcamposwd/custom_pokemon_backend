@@ -275,7 +275,7 @@ export const BtnBack = styled.button`
   border-radius: 7px;
   font-size: 15px;
   text-transform: uppercase;
-  border: 2px solid ${(props) => props.theme.colors.goldmd};;
+  border: 2px solid ${(props) => props.theme.colors.goldmd};
   background-color: ${(props) => props.theme.colors.gold};
   box-shadow: 5px 6px 8px ${(props) => props.theme.colors.blackopacity};
   color: ${(props) => props.theme.colors.white};

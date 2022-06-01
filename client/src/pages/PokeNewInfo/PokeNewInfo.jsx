@@ -161,6 +161,7 @@ function PokeInfo() {
           data-cy='btn-delete-pokeinfo'
           type='button'
           onClick={() => handleDelete(id)}
+          disabled
         >
           Delete
         </S.Button>

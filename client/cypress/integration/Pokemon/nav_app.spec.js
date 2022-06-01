@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 describe('Testando rotas', () => {
-
   beforeEach(() => {
     cy.visit('http://localhost:3000')
   })
@@ -36,7 +35,10 @@ describe('Testando rotas', () => {
 
   it('Click menu history', () => {
     cy.get('[data-cy="menu-history"]').click()
-    cy.get('[data-cy="title-history"]').should('contain', 'A História do Anime Pokémon')
+    cy.get('[data-cy="title-history"]').should(
+      'contain',
+      'A História do Anime Pokémon'
+    )
   })
 
   it('Click menu about', () => {

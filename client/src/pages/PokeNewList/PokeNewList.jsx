@@ -30,7 +30,9 @@ function PokeNewList() {
         <p data-cy='msgclick-pokenewlist'>click below and have fun!</p>
         <S.FildBtn>
           <Link to='/new'>
-            <S.Button data-cy='btn-create-pokenewlist' type='button'>Create New Pokémon</S.Button>
+            <S.Button data-cy='btn-create-pokenewlist' type='button'>
+              Create New Pokémon
+            </S.Button>
           </Link>
         </S.FildBtn>
       </S.MsgWelcome>
@@ -45,15 +47,21 @@ function PokeNewList() {
         <p data-cy='msgclick-pokenewlist'>click below and have fun!</p>
         <S.FildBtn>
           <Link to='/new'>
-            <S.Button data-cy='btn-create-pokenewlist' type='button'>Create New Pokémon</S.Button>
+            <S.Button data-cy='btn-create-pokenewlist' type='button'>
+              Create New Pokémon
+            </S.Button>
           </Link>
         </S.FildBtn>
       </S.MsgInitial>
       <S.ListCards>
-        <S.ListTitle data-cy='title-pokenewlist'>List Custom Pokémons</S.ListTitle>
+        <S.ListTitle data-cy='title-pokenewlist'>
+          List Custom Pokémons
+        </S.ListTitle>
         {!loading && <Loading />}
         {newPokes &&
-          newPokes?.map((poke, index) => <PokeCard data-cy='card-pokenewlist' key={index} poke={poke} />)}
+          newPokes?.map((poke, index) => (
+            <PokeCard data-cy='card-pokenewlist' key={index} poke={poke} />
+          ))}
       </S.ListCards>
     </S.ContainerList>
   )

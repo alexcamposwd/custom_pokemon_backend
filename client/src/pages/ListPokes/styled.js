@@ -66,7 +66,6 @@ export const ListCards = styled.div`
   justify-content: space-between;
   gap: 20px 10px;
   align-items: center;
-  
 
   @media (max-width: 750px) {
     padding: 30px;

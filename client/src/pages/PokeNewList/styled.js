@@ -242,14 +242,14 @@ export const Button = styled.button`
   height: 40px;
   border-radius: 7px;
   font-size: 15px;
-   font-weight: 500;
+  font-weight: 500;
   text-transform: uppercase;
-  border: 2px solid ${(props) => props.theme.colors.goldmd};;
+  border: 2px solid ${(props) => props.theme.colors.goldmd};
   background-color: ${(props) => props.theme.colors.gold};
   box-shadow: 5px 6px 8px ${(props) => props.theme.colors.blackopacity};
   color: ${(props) => props.theme.colors.white};
   text-align: center;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
 
   &:hover {

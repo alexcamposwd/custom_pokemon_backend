@@ -58,7 +58,6 @@ export const ProjectTitle = styled.h1`
     @media (max-width: 750px) {
       font-size: 18px;
       line-height: 25px;
-      
     }
     @media (max-width: 550px) {
       display: flex;
@@ -78,13 +77,13 @@ export const ProjectSubTitle = styled.h3`
   text-align: center;
 
   @media (max-width: 750px) {
-      font-size: 18px;
-      line-height: 26px;
-    }
-    @media (max-width: 550px) {
-      font-size: 16px;
-      line-height: 24px;
-    }
+    font-size: 18px;
+    line-height: 26px;
+  }
+  @media (max-width: 550px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 `
 
 export const ProjectText = styled.ul`
@@ -116,7 +115,7 @@ export const DevStacks = styled.ul`
     width: auto;
     justify-content: center;
     align-items: center;
-    
+
     color: ${(props) => props.theme.colors.primary2};
 
     p {
@@ -129,7 +128,7 @@ export const DevStacks = styled.ul`
       text-align: center;
       border-radius: 7px;
       border: 1px solid ${(props) => props.theme.colors.goldmd};
-       box-shadow: 2px 3px 7px 0 ${(props) => props.theme.colors.blackopacity};
+      box-shadow: 2px 3px 7px 0 ${(props) => props.theme.colors.blackopacity};
       margin: 7px;
       cursor: default;
       transition: all 0.3s ease-in-out;
@@ -140,6 +139,4 @@ export const DevStacks = styled.ul`
       }
     }
   }
-
-
 `

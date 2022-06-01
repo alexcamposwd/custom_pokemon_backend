@@ -64,7 +64,7 @@ export const NavTitle = styled.h2`
 `
 export const NavLogo = styled.img`
   width: 180px;
-  
+
   &:hover {
     cursor: pointer;
   }
@@ -132,7 +132,7 @@ export const NavItem = styled.li`
   @media (max-width: 750px) {
     width: 80px;
     a {
-      font-size:15px;
+      font-size: 15px;
     }
   }
   @media (max-width: 550px) {

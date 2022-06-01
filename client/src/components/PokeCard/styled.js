@@ -10,11 +10,11 @@ export const ContainerCard = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border: 2px solid ${(props) => props.theme.colors.gold};
   box-shadow: 4px 6px 15px 0 ${(props) => props.theme.colors.blackopacity};
   cursor: pointer;
-  
+
   &:after {
     content: '';
     display: flex;

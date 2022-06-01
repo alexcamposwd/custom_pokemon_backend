@@ -1,26 +1,25 @@
 import styled from 'styled-components'
 
-export const ContainerPagination = styled.article `
+export const ContainerPagination = styled.article`
   display: flex;
   width: 100%;
   height: auto;
   justify-content: center;
   margin-bottom: 10px;
 `
-export const SectionBtn = styled.section `
+export const SectionBtn = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
 
   @media (max-width: 750px) {
-      width: 250px;
-      font-size: 13px;
-      
-    }
-    @media (max-width: 630px) {
-      font-size: 12px;
-    }
+    width: 250px;
+    font-size: 13px;
+  }
+  @media (max-width: 630px) {
+    font-size: 12px;
+  }
 
   button {
     display: flex;
@@ -33,7 +32,7 @@ export const SectionBtn = styled.section `
     border: 1px solid ${(props) => props.theme.colors.grey8};
     background-color: ${(props) => props.theme.colors.light};
     color: ${(props) => props.theme.colors.primary2};
-    opacity: .8;
+    opacity: 0.8;
     cursor: pointer;
 
     @media (max-width: 750px) {
@@ -60,7 +59,7 @@ export const SectionBtn = styled.section `
   }
 `
 
-export const SectionSelect = styled.section `
+export const SectionSelect = styled.section`
   display: flex;
   width: 100px;
   height: auto;
@@ -76,7 +75,7 @@ export const SectionSelect = styled.section `
     font-weight: 500;
     background-color: ${(props) => props.theme.colors.light};
     color: ${(props) => props.theme.colors.primary2};
-    opacity: .8;
+    opacity: 0.8;
     cursor: pointer;
 
     @media (max-width: 750px) {
@@ -86,6 +85,6 @@ export const SectionSelect = styled.section `
     @media (max-width: 630px) {
       width: 40px;
       font-size: 12px;
-    } 
+    }
   }
 `

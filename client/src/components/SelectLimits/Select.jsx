@@ -4,7 +4,9 @@ import * as S from './styled'
 function Select({ text, name, options, handleOnChange, value }) {
   return (
     <S.ContainerSelect>
-      <S.SelectText data-cy='lbl-limit' htmlFor={name}>{text}:</S.SelectText>
+      <S.SelectText data-cy='lbl-limit' htmlFor={name}>
+        {text}:
+      </S.SelectText>
       <S.SelectControl
         name={name}
         id={name}

@@ -7,7 +7,9 @@ function History() {
     <S.ContainerHistory>
       <S.SectionProject>
         <S.HistoryImg data-cy='img-history' src={poke} alt='Pokémon' />
-        <S.ProjectTitle data-cy='title-history'>A História do Anime Pokémon</S.ProjectTitle>
+        <S.ProjectTitle data-cy='title-history'>
+          A História do Anime Pokémon
+        </S.ProjectTitle>
         <S.ProjectText data-cy='text-history'>
           A estreia de Pokémon foi no videogame. Em 27 de fevereiro de 1996,
           foram lançados no Japão os jogos Pokémon Red e Pokémon Green, de

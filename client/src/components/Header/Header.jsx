@@ -15,16 +15,24 @@ function Header() {
 
       <S.NavList>
         <S.NavItem>
-          <NavLink data-cy='menu-list' to='/initial'>List</NavLink>
+          <NavLink data-cy='menu-list' to='/initial'>
+            List
+          </NavLink>
         </S.NavItem>
         <S.NavItem>
-          <NavLink data-cy='menu-create' to='/list'>Create</NavLink>
+          <NavLink data-cy='menu-create' to='/list'>
+            Create
+          </NavLink>
         </S.NavItem>
         <S.NavItem>
-          <NavLink data-cy='menu-history' to='/history'>History</NavLink>
+          <NavLink data-cy='menu-history' to='/history'>
+            History
+          </NavLink>
         </S.NavItem>
         <S.NavItem>
-          <NavLink data-cy='menu-about' to='/about'>About</NavLink>
+          <NavLink data-cy='menu-about' to='/about'>
+            About
+          </NavLink>
         </S.NavItem>
       </S.NavList>
     </S.HeaderWrapper>

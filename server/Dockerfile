@@ -1,6 +1,8 @@
 FROM node:16-alpine as build-stage
 
-LABEL version="1.0" description="node_ts_mongo  image"
+LABEL version="1.0" 
+LABEL description="Custom new Pokémon - Backend Api"
+LABEL maintainer="alexcamposwd@gmail.com"
 
 WORKDIR /usr/src/server
 
