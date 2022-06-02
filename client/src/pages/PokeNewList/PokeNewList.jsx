@@ -46,10 +46,8 @@ function PokeNewList() {
 
         <p data-cy='msgclick-pokenewlist'>click below and have fun!</p>
         <S.FildBtn>
-          <Link to='/new'>
-            <S.Button data-cy='btn-create-pokenewlist' type='button'>
-              Create New Pokémon
-            </S.Button>
+          <Link to='/new' data-cy='btn-create-pokenewlist'>
+            <S.Button type='button'>Create New Pokémon</S.Button>
           </Link>
         </S.FildBtn>
       </S.MsgInitial>

@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-02T23:21:49.053Z",
+    "end": "2022-06-02T23:21:53.168Z",
+    "duration": 4115,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9864873e-e28a-432b-a777-91476aafcda3",
+      "title": "",
+      "fullFile": "cypress/integration/tests/ui_newedit.spec.js",
+      "file": "cypress/integration/tests/ui_newedit.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c910be02-b6d8-41c7-951c-f65e0b2f810a",
+          "title": "New Edit screen usability test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check New Edit screen elements",
+              "fullTitle": "New Edit screen usability test Check New Edit screen elements",
+              "timedOut": null,
+              "duration": 1531,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-cy=\"wapper-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"title-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-name-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-name-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-url-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-url-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-type1-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-type1-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-type2-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-type2-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-hp-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-hp-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-attack-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-attack-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-defense-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-defense-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-specAtc-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-specAtc-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-specDef-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-specDef-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-speed-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-speed-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-title1-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-title1-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-descr1-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-descr1-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-title2-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-title2-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"lbl-descr2-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"inp-descr2-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"btn-save-pokeedit\"]').should('be.visible');\ncy.get('[data-cy=\"btn-back-pokeedit\"]').should('be.visible');",
+              "err": {},
+              "uuid": "a28cf88b-f0fd-45a7-9a6f-bc5d5e947b76",
+              "parentUUID": "c910be02-b6d8-41c7-951c-f65e0b2f810a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a28cf88b-f0fd-45a7-9a6f-bc5d5e947b76"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1531,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "reportFilename": "report",
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

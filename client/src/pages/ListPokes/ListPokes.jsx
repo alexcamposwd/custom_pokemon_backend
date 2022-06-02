@@ -11,7 +11,7 @@ function ListPokes() {
   const [pokeName, setPokeName] = useState('')
   const [searchInput, setSearchInput] = useState('')
   const [loading, setLoading] = useState(true)
-  const [limitation, setLimitation] = useState(20)
+  const [limitation, setLimitation] = useState(200)
   const [itemsPerPage, setItemsPerPage] = useState(10)
   const [currentPage, setCurrentPage] = useState(1)
   const limit = [

@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../../assets/images/provu_logo.png'
+import logo from '../../assets/images/logo_pokemon.png'
 import * as S from './styled'
 
 function Header() {

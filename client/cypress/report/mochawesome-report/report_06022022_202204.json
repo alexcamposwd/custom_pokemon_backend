@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-02T23:22:00.688Z",
+    "end": "2022-06-02T23:22:04.990Z",
+    "duration": 4302,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4f81d67f-b2c8-4877-9031-0b36af36003d",
+      "title": "",
+      "fullFile": "cypress/integration/tests/ui_newlist.spec.js",
+      "file": "cypress/integration/tests/ui_newlist.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "388cdf87-d02d-4b99-a258-6789216c6891",
+          "title": "New List screen usability test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check New List screen elements",
+              "fullTitle": "New List screen usability test Check New List screen elements",
+              "timedOut": null,
+              "duration": 1907,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-cy=\"msgwel-pokenewlist\"]').should('be.visible');\ncy.get('[data-cy=\"msgclick-pokenewlist\"]').should('be.visible');\ncy.get('[data-cy=\"btn-create-pokenewlist\"]').should('be.visible');\ncy.get('[data-cy=\"title-pokenewlist\"]').should('be.visible');\ncy.get('[data-cy=\"card-newpoke\"]').should('be.visible');",
+              "err": {},
+              "uuid": "c9ea2ddd-c2c1-4f00-bd5e-47cc00a3a39e",
+              "parentUUID": "388cdf87-d02d-4b99-a258-6789216c6891",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c9ea2ddd-c2c1-4f00-bd5e-47cc00a3a39e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1907,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "reportFilename": "report",
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -5,86 +5,92 @@ function About() {
   return (
     <S.ContainerAbout>
       <S.SectionProject data-cy='project-poke'>
-        <S.ProjectTitle>Proposta: Pokedex</S.ProjectTitle>
+        <S.ProjectTitle>Proposta: Custom Pokedex</S.ProjectTitle>
         <S.ProjectText>
-          Desafio proposto para processo seletivo da Provu:
+          Este pojeto foi executado para estudos e prática das tecnologias
+          aplicadas.
         </S.ProjectText>
         <S.ProjectText>
           <li>
             <p>
-              O desafio consiste no desenvolvimento de uma aplicação em React
-              para apresentar visualmente as informações da api pokeapi.co ou
-              similar e para as imagens da api pokemondb.net ou similar.
+              O estudo é baseado na execução de Pokedex e um Custom Pokémon
+              utilizando:
             </p>
+          </li>
+          <li>
+            <p>Docker, React.js, Typescript, Node.js, MongoDB, Cypress, etc.</p>
+          </li>
+          <li>
+            <p>A aplicação é separada em duas atividades:</p>
+          </li>
+          <li>
+            <p>A aplicação é separada em duas atividades:</p>
+          </li>
+          <li>
             <p>
-              Foi oferecido uma ideia inicial com duas páginas e alguns
-              elementos, porém foi permitido aos desenvolvedores a liberdade
-              para criar novo layout e implementar novos elementos.
+              - 1º é listagem de Pokémons da api pública pokeapi.co com página
+              de detalhes;
+            </p>
+          </li>
+          <li>
+            <p>
+              - 2º é aonde o usuário poderá personalizar seus Pokémons,
+              possibilitando criar e editar Pokémons. Também com imagem e página
+              de detalhes.
             </p>
           </li>
         </S.ProjectText>
-        <S.ProjectSubTitle>Minha Proposta</S.ProjectSubTitle>
         <S.ProjectText>
+          <S.ProjectText>
+            <li>
+              <p>Tecnologias utilizadas no frontend:</p>
+            </li>
+          </S.ProjectText>
           <li>
-            <p>
-              Criei uma página de capa com imagem ilustrativa do proposito da
-              app.
-            </p>
-            <p>
-              Criei uma página com um resumo da história do Pokémon do início
-              aos dias atuais.
-            </p>
-            <p>
-              Inseri a logomarca da Provu evidenciando o patrocínio do desafio.
-            </p>
-            <p>
-              Implementei o loading para informar o usuário que a página esta
-              carregando.
-            </p>
-            <p>
-              Mantive layout básico da página de cards, mas com diferenças no
-              estilo, como no background uniforme, tamanho das imagens, etc.
-            </p>
-            <p>
-              Na página de detalhes, também mantive o layout e modifiquei apenas
-              detalhes de estilo.
-            </p>
-            <p>
-              O campo buscar está funcional e inseri um select para o usuario
-              interagir com a quantidade de cards visualizados na lista.
-            </p>
-            <p>Configurei o EsLint e Prettier</p>
-            <p>Utilizei React.lazy e React.memo</p>
-            <p>Utilizei Styled Components</p>
-            <p>Arquivos disponibilizados no GitHub e Deploy no Netlify.</p>
+            <p>- React.</p>
           </li>
-        </S.ProjectText>
-        <S.ProjectSubTitle>Atualização</S.ProjectSubTitle>
-        <S.ProjectText>
           <li>
-            <p>Para a atualização, inseri novas features, são elas:</p>
+            <p>- React.lazy e Suspense</p>
+          </li>
+          <li>
+            <p>- Manipulação de estados com Context.</p>
+          </li>
+          <li>
+            <p>- Manipulaçãode rotas com React router V6.</p>
+          </li>
+          <li>
+            <p>- Consumo api com React e axios.</p>
+          </li>
+          <li>
+            <p>- Styled Components.</p>
+          </li>
+          <li>
+            <p>- Eslint e Prettier</p>
+          </li>
+          <li>
             <p>
-              Criei uma guia que leva para um novo elemento de criação de
-              Pokémons customizados.
+              - Testes do frontend com Cypress e relatórios com MochAwesome.
             </p>
-            <p>
-              O usuário insere nome, url da imagem, dados estatísticos e pronto,
-              novo Pokémon criado.
-            </p>
-            <p>
-              Todos os novos Pokémons são listados na página da nova feature, no
-              padrão do projeto inicial.
-            </p>
-            <p>Ainda o usuário poderá editar e deletar seus Pokémons.</p>
-            <p>
-              Esta nova funcionalidade esta conectada a API de armazenamento
-              criada exclusivamente para esta função, criada com NodeJS,
-              Typescript, Express, Axios e Mongoose.
-            </p>
-            <p>Também novas tecnologias foram utilizadas:</p>
-            <p>
-              A principal delas ficou por conta da utilização do Context Api
-            </p>
+          </li>
+          <S.ProjectText>
+            <li>
+              <p>Tecnologias utilizadas no backend:</p>
+            </li>
+          </S.ProjectText>
+          <li>
+            <p>- Api request GET, POST, PUT, DELETE;</p>
+          </li>
+          <li>
+            <p>- Aplicação criada com Nodejs e Typescript;</p>
+          </li>
+          <li>
+            <p>- Banco de dados utilizado foi MongoDB Atlas (online);</p>
+          </li>
+          <li>
+            <p>- Utilizando Express e Mongoose;</p>
+          </li>
+          <li>
+            <p>- Testes da api com Cypress e relatórios com MochAwesome.</p>
           </li>
         </S.ProjectText>
       </S.SectionProject>
@@ -93,7 +99,7 @@ function About() {
           <S.ProjectTitle>Autor: Alex Campos</S.ProjectTitle>
           <S.ProjectText>
             Sou formado em Processamento de Dados e venho me atualizando dia a
-            dia com objetivo de me tornar um devensolvedor web full stack.
+            dia com objetivo de me tornar um desenvolvedor web full stack.
           </S.ProjectText>
           <S.DevStacks>
             <h3>Stacks:</h3>
@@ -101,12 +107,17 @@ function About() {
               <p>html</p>
               <p>css</p>
               <p>javascript</p>
+              <p>typescript</p>
+              <p>nodeJS</p>
               <p>react</p>
               <p>vue</p>
-              <p>nodeJS</p>
-              <p>typescript</p>
+              <p>sass</p>
+              <p>docker</p>
               <p>mongodb</p>
               <p>postgres</p>
+              <p>cypress</p>
+              <p>styled-components</p>
+              <p>docker-compose</p>
             </li>
           </S.DevStacks>
           <S.ProjectTitle>

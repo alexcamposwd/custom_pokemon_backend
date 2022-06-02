@@ -9,7 +9,7 @@
     "build": "tsc",
     "postinstall": "npm run build",
     "dev": "ts-node-dev index.ts",
-    "test": "npx cypress open",
+    "cypress:open": "cypress open",
     "test-cy": "npx cypress run --reporter mochawesome",
     "test-merge": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
     "test-html": "marge cypress/report/output.json --reportDir ./ --inline",
