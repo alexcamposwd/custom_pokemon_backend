@@ -12,19 +12,6 @@ services:
     networks:
       - app-network
   
-  client:
-    build:
-      context: ./client
-      dockerfile: Dockerfile
-    image: client
-    container_name: client
-    depends_on:
-      - server
-    ports:
-      - "3000:3000"
-    networks:
-      - app-network
-
 networks:
     app-network:
         driver: bridge
