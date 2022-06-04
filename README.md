@@ -1,6 +1,6 @@
 ## <a href="#">Custom Pokémon App</a>
 
-[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/alexcamposwd/pokedex_react/blob/main/LICENSE)
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/alexcamposwd/custom_pokemon_backend/blob/main/LICENSE)
 
 ### Estudo de caso e Prática pessoal.
 
@@ -22,24 +22,13 @@ A aplicação é separada em duas atividades:
 - Utilizando Express e Mongoose;
 - Testes da api com Cypress e relatórios com MochAwesome.
 
-# - Frontend - CLIENT
-
-- React.
-- React.lazy e Suspense
-- Manipulação de states com Context.
-- Manipulaçãode rotas com React router V6.
-- Consumo api com React e axios.
-- Styled Components.
-- Eslint e Prettier
-- Testes do frontend com Cypress e relatórios com MochAwesome.
-
 # - APP:
 
 - Git e GitHub
 - Deploy Heroku e Netlify.
 - O projeto foi editado no Visual Studio Code.
 
-##[Demo]()
+<!-- ##[Demo]() -->
 
 ### License/Licença do Projeto
 
