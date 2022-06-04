@@ -16,6 +16,6 @@ RUN ls -a
 RUN npm install
 RUN npm run build
 
-EXPOSE 5000
+EXPOSE $SERVER_LOCAL_PORT
 
 CMD [ "npm", "start" ]
