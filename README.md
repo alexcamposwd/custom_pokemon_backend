@@ -28,7 +28,7 @@ A aplicação é separada em duas atividades:
 - Deploy Heroku e Netlify.
 - O projeto foi editado no Visual Studio Code.
 
-<!-- ##[Demo]() -->
+## [Demo](https://custom-pokemon.herokuapp.com/)
 
 ### License/Licença do Projeto
 
